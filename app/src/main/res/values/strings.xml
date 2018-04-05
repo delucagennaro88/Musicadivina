@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Musica Divina</string>
+    <string name="title_first">musica</string>
+    <string name="title_second">divina</string>
+    <string name="welcome">Welcome to the first Paradise of Baroque Melody</string>
+    <string name="welcome_two">Welcome to the Download page!</string>
+    <string name="welcome_three">Have a good listening!</string>
+    <string name="w_name">H. Wilderer</string>
+    <string name="v_name">F. Veracini</string>
+    <string name="s_name">A. Steffani</string>
+    <string name="m_name">S. Moratelli</string>
+    <string name="m_name_complete">Sebastiano Moratelli</string>
+    <string name="s_name_complete">Agostino Steffani</string>
+    <string name="v_name_complete">Francesco Veracini</string>
+    <string name="w_name_complete">Hugo Wilderer</string>
+    <string name="m_work">La faretra smarrita</string>
+    <string name="w_work">Giocasta</string>
+    <string name="s_work">Stabat Mater</string>
+    <string name="v_work">Sonate Accademiche</string>
+    <string name="others">Related Works</string>
+    <string name="m_work_complete">La faretra smarrita by Moratelli</string>
+    <string name="s_work_complete">Stabat Mater by Steffani</string>
+    <string name="v_work_complete">12 Sonate Accademiche by Veracini</string>
+    <string name="w_work_complete">Giocasta by Wilderer</string>
+    <string name="download">Download</string>
+</resources>
