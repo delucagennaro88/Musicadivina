@@ -8,8 +8,7 @@
     <TextView
         android:id="@+id/download_instructions"
         style="@style/welcome_two_style"
-        android:text="@string/welcome_two"
-        />
+        android:text="@string/welcome_two" />
 
     <TextView
         android:id="@+id/selected_song"
@@ -26,30 +25,26 @@
     <ImageView
         android:id="@+id/album"
         style="@style/work_image"
-        android:src="@drawable/veracini"/>
+        android:src="@drawable/veracini" />
 
     <TextView
         android:id="@+id/similar_songs"
         style="@style/title_list"
-        android:text="@string/others"
-        />
+        android:text="@string/others" />
 
     <TextView
         android:id="@+id/first_song"
         style="@style/list_item"
-        android:text="@string/s_work"
-        />
+        android:text="@string/s_work" />
 
     <TextView
         android:id="@+id/second_song"
         style="@style/list_item"
-        android:text="@string/w_work"
-        />
+        android:text="@string/w_work" />
 
     <TextView
         android:id="@+id/third_song"
         style="@style/list_item"
-        android:text="@string/m_work"
-        />
+        android:text="@string/m_work" />
 
 </LinearLayout>

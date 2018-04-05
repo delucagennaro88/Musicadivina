@@ -4,33 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     style="@style/general_style"
-    tools:context="com.example.utente.musicadivina.MainActivity"
-    >
+    tools:context="com.example.utente.musicadivina.MainActivity">
 
-    <RelativeLayout
-        style="@style/header_style">
+    <RelativeLayout style="@style/header_style">
 
         <TextView
-            android:text="@string/title_first"
             style="@style/header_first"
-            />
+            android:text="@string/title_first" />
 
         <TextView
             style="@style/header_second"
-            android:text="@string/title_second"
-            />
+            android:text="@string/title_second" />
 
         <TextView
             style="@style/welcome_first"
-            android:text="@string/welcome"
-            />
+            android:text="@string/welcome" />
 
     </RelativeLayout>
 
     <!-- List of Artists -->
 
-    <LinearLayout
-        style="@style/general_style_row">
+    <LinearLayout style="@style/general_style_row">
 
         <!-- Wilderer -->
 
@@ -41,8 +35,7 @@
             <ImageView
                 android:id="@+id/image"
                 style="@style/artist_image"
-                android:src="@drawable/wilderer"
-                />
+                android:src="@drawable/wilderer" />
 
             <RelativeLayout
                 style="@style/artist_context_text"
@@ -51,7 +44,7 @@
                 <TextView
                     android:id="@+id/Wilderer"
                     style="@style/artist_text"
-                    android:text="@string/w_name"/>
+                    android:text="@string/w_name" />
 
             </RelativeLayout>
 
@@ -66,8 +59,7 @@
             <ImageView
                 android:id="@+id/image1"
                 style="@style/artist_image"
-                android:src="@drawable/veracini"
-                />
+                android:src="@drawable/veracini" />
 
             <RelativeLayout
                 style="@style/artist_context_text"
@@ -76,7 +68,7 @@
                 <TextView
                     android:id="@+id/Veracini"
                     style="@style/artist_text"
-                    android:text="@string/v_name"/>
+                    android:text="@string/v_name" />
 
             </RelativeLayout>
 
@@ -88,8 +80,7 @@
 
     <!-- List of Artists -->
 
-    <LinearLayout
-        style="@style/general_style_row">
+    <LinearLayout style="@style/general_style_row">
 
         <!-- Steffani -->
 
@@ -100,8 +91,7 @@
             <ImageView
                 android:id="@+id/image2"
                 style="@style/artist_image"
-                android:src="@drawable/steffani"
-                />
+                android:src="@drawable/steffani" />
 
             <RelativeLayout
                 style="@style/artist_context_text"
@@ -110,7 +100,7 @@
                 <TextView
                     android:id="@+id/Steffani"
                     style="@style/artist_text"
-                    android:text="@string/s_name"/>
+                    android:text="@string/s_name" />
 
             </RelativeLayout>
 
@@ -125,8 +115,7 @@
             <ImageView
                 android:id="@+id/image3"
                 style="@style/artist_image"
-                android:src="@drawable/moratelli"
-                />
+                android:src="@drawable/moratelli" />
 
             <RelativeLayout
                 style="@style/artist_context_text"
@@ -135,7 +124,7 @@
                 <TextView
                     android:id="@+id/Moratelli"
                     style="@style/artist_text"
-                    android:text="@string/m_name"/>
+                    android:text="@string/m_name" />
 
             </RelativeLayout>
 
@@ -145,13 +134,12 @@
 
     <!-- End of Second Row -->
 
-    <RelativeLayout
-        style="@style/end_row">
+    <RelativeLayout style="@style/end_row">
 
         <ImageButton
-            style="@style/button"
             android:id="@+id/addbutton"
-            android:background="@drawable/add_button"/>
+            style="@style/button"
+            android:background="@drawable/add_button" />
 
     </RelativeLayout>
 

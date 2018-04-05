@@ -8,29 +8,28 @@
     <ImageView
         android:id="@+id/album"
         style="@style/album_image"
-        android:src="@drawable/steffani"/>
+        android:src="@drawable/steffani" />
 
     <TextView
-        android:text="@string/welcome_three"
         style="@style/welcome_three_style"
-        />
+        android:text="@string/welcome_three" />
 
     <ImageView
         android:id="@+id/musicplayer"
         style="@style/media_player"
-        android:src="@drawable/buttons"
-        android:layout_below="@id/album"/>
+        android:layout_below="@id/album"
+        android:src="@drawable/buttons" />
 
     <TextView
         android:id="@+id/songname"
         style="@style/complete_work_style"
-        android:text="@string/s_work_complete"
-        android:layout_below="@id/musicplayer"/>
+        android:layout_below="@id/musicplayer"
+        android:text="@string/s_work_complete" />
 
     <TextView
         android:id="@+id/downloadSteffani"
         style="@style/download_link"
         android:layout_below="@id/songname"
-        android:text="@string/download"/>
+        android:text="@string/download" />
 
 </RelativeLayout>
