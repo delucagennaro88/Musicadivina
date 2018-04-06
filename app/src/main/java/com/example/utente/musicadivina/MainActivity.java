@@ -1,12 +1,11 @@
 package com.example.utente.musicadivina;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
 import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ImageButton;
-import android.widget.Toast;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -19,17 +18,18 @@ public class MainActivity extends AppCompatActivity {
         // Set the contentView
         setContentView(R.layout.activity_main);
 
-        floatButton = (ImageButton) findViewById(R.id.addbutton);
+        floatButton = findViewById(R.id.addbutton);
         floatButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),
-                        "Wish you add new Melodies?", Toast.LENGTH_LONG).show();
+                Intent melodiesIntent = new Intent(MainActivity.this, NewMelodies.class);
+                startActivity(melodiesIntent);
             }
         });
 
+
         //Wilderer Radio
-        final TextView Wilderer = (TextView) findViewById(R.id.Wilderer);
+        final TextView Wilderer = findViewById(R.id.Wilderer);
 
         Wilderer.setOnClickListener(new View.OnClickListener() {
 
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Veracini Radio
-        final TextView Veracini = (TextView) findViewById(R.id.Veracini);
+        final TextView Veracini = findViewById(R.id.Veracini);
 
         Veracini.setOnClickListener(new View.OnClickListener() {
 
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Steffani Radio
-        final TextView Steffani = (TextView) findViewById(R.id.Steffani);
+        final TextView Steffani = findViewById(R.id.Steffani);
 
         Steffani.setOnClickListener(new View.OnClickListener() {
 
@@ -66,8 +66,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Moratelli Radio
-        final TextView Moratelli = (TextView) findViewById(R.id.Moratelli);
-
+        final TextView Moratelli = findViewById(R.id.Moratelli);
 
         Moratelli.setOnClickListener(new View.OnClickListener() {
 

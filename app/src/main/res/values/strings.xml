@@ -22,5 +22,12 @@
     <string name="s_work_complete">Stabat Mater by Steffani</string>
     <string name="v_work_complete">12 Sonate Accademiche by Veracini</string>
     <string name="w_work_complete">Giocasta by Wilderer</string>
+    <string name="m_work_two">Il fabbro pittore</string>
+    <string name="w_work_two">Mass for 4 voices</string>
+    <string name="w_work_three">Te Deum</string>
+    <string name="v_work_two">Violin Sonata</string>
+    <string name="s_work_two">Sonata in prima sol minore</string>
+    <string name="s_work_three">Crudo Amor</string>
+    <string name="s_work_four">Niobe</string>
     <string name="download">Download</string>
 </resources>

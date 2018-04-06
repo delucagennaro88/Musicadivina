@@ -44,6 +44,11 @@
         <activity
             android:name=".DownloadWilderer"
             android:label="Download Wilderer" />
+
+        <activity
+            android:name=".NewMelodies"
+            android:label="New Melodies" />
+
     </application>
 
 </manifest>
