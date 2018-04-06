@@ -10,6 +10,5 @@ public class DownloadMoratelli extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_download_moratelli);
 
-
     }
 }

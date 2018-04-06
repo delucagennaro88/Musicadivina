@@ -16,10 +16,8 @@ public class VeraciniRadio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_veracini_radio);
 
-        //Find the View that shows the Download
         final TextView DownloadVeracini = (TextView) findViewById(R.id.downloadVeracini);
 
-        //Set click listener on that view
         DownloadVeracini.setOnClickListener(new View.OnClickListener() {
             //The code in this method will be executed when the Veracini View is clicked on.
             @Override

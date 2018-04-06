@@ -16,10 +16,8 @@ public class SteffaniRadio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_steffani_radio);
 
-        //Find the View that shows the Download
         final TextView DownloadSteffani = (TextView) findViewById(R.id.downloadSteffani);
 
-        //Set click listener on that view
         DownloadSteffani.setOnClickListener(new View.OnClickListener() {
             //The code in this method will be executed when the Steffani View is clicked on.
             @Override

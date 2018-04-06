@@ -16,10 +16,8 @@ public class MoratelliRadio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_moratelli_radio);
 
-        //Find the View that shows the Download
         final TextView DownloadMoratelli = (TextView) findViewById(R.id.downloadMoratelli);
 
-        //Set click listener on that view
         DownloadMoratelli.setOnClickListener(new View.OnClickListener() {
             //The code in this method will be executed when the Moratelli View is clicked on.
             @Override

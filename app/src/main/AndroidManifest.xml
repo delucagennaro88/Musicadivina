@@ -29,17 +29,21 @@
             android:name=".MoratelliRadio"
             android:label="Moratelli Radio" />
 
-        <activity android:name=".DownloadVeracini"
-            android:label="Download Veracini"></activity>
+        <activity
+            android:name=".DownloadVeracini"
+            android:label="Download Veracini" />
 
-        <activity android:name=".DownloadMoratelli"
-            android:label="Download Moratelli"></activity>
+        <activity
+            android:name=".DownloadMoratelli"
+            android:label="Download Moratelli" />
 
-        <activity android:name=".DownloadSteffani"
-            android:label="Download Steffani"></activity>
+        <activity
+            android:name=".DownloadSteffani"
+            android:label="Download Steffani" />
 
-        <activity android:name=".DownloadWilderer"
-            android:label="Download Wilderer"></activity>
+        <activity
+            android:name=".DownloadWilderer"
+            android:label="Download Wilderer" />
     </application>
 
 </manifest>

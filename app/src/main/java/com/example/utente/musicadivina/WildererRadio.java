@@ -16,10 +16,8 @@ public class WildererRadio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wilderer_radio);
 
-        //Find the View that shows the Download
         final TextView DownloadWilderer = (TextView) findViewById(R.id.downloadWilderer);
 
-        //Set click listener on that view
         DownloadWilderer.setOnClickListener(new View.OnClickListener() {
             //The code in this method will be executed when the Wilderer View is clicked on.
             @Override
