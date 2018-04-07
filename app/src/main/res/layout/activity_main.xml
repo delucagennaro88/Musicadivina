@@ -135,6 +135,11 @@
 
     <RelativeLayout style="@style/end_row">
 
+        <TextView
+            android:id="@+id/first_song"
+            style="@style/explore_style"
+            android:text="@string/explore" />
+
         <ImageButton
             android:id="@+id/addbutton"
             style="@style/button"

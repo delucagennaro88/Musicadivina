@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         // Set the contentView
         setContentView(R.layout.activity_main);
 
+        // New Melodies
         floatButton = findViewById(R.id.addbutton);
         floatButton.setOnClickListener(new View.OnClickListener() {
             @Override

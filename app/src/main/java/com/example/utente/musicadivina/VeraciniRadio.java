@@ -1,8 +1,8 @@
 package com.example.utente.musicadivina;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -11,15 +11,17 @@ import android.widget.TextView;
  */
 
 public class VeraciniRadio extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_veracini_radio);
 
-        final TextView DownloadVeracini = (TextView) findViewById(R.id.downloadVeracini);
+        final TextView DownloadVeracini = findViewById(R.id.downloadVeracini);
 
         DownloadVeracini.setOnClickListener(new View.OnClickListener() {
-            //The code in this method will be executed when the Veracini View is clicked on.
+
             @Override
             public void onClick(View v) {
                 Intent downloadIntent = new Intent(VeraciniRadio.this, DownloadVeracini.class);

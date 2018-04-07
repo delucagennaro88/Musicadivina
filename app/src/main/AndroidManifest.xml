@@ -19,12 +19,15 @@
         <activity
             android:name=".WildererRadio"
             android:label="Wilderer Radio" />
+
         <activity
             android:name=".VeraciniRadio"
             android:label="Veracini Radio" />
+
         <activity
             android:name=".SteffaniRadio"
             android:label="Steffani Radio" />
+
         <activity
             android:name=".MoratelliRadio"
             android:label="Moratelli Radio" />

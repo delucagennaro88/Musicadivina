@@ -1,8 +1,8 @@
 package com.example.utente.musicadivina;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -11,12 +11,14 @@ import android.widget.TextView;
  */
 
 public class MoratelliRadio extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_moratelli_radio);
 
-        final TextView DownloadMoratelli = (TextView) findViewById(R.id.downloadMoratelli);
+        final TextView DownloadMoratelli = findViewById(R.id.downloadMoratelli);
 
         DownloadMoratelli.setOnClickListener(new View.OnClickListener() {
             //The code in this method will be executed when the Moratelli View is clicked on.
