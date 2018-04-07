@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/end_row">
+
+    <ImageView
+        android:id="@+id/image_album"
+        style="@style/list_image" />
+
+    <TextView
+        android:id="@+id/artist_name"
+        style="@style/list_item_text"
+        android:layout_toRightOf="@id/image_album" />
+
+    <TextView
+        android:id="@+id/opera_title"
+        style="@style/list_item_text"
+        android:layout_below="@id/artist_name"
+        android:layout_toRightOf="@id/image_album" />
+
+</RelativeLayout>
