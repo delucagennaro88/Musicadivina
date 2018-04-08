@@ -7,14 +7,14 @@ package com.example.utente.musicadivina;
 public class Melody {
 
     // Here is the ID of the Artist's pic
-    private int mPicture;
+    public int mPicture;
     // Here is the name of the Artist
-    private String mArtist;
+    public String mArtist;
     // Here is the title of the Work
-    private String mOpera;
+    public String mOpera;
 
     // Create the instance of the Melody Object
-    private Melody(int mPicture, String mArtist, String mOpera) {
+    public Melody(int mPicture, String mArtist, String mOpera) {
         this.mPicture = mPicture;
         this.mArtist = mArtist;
         this.mOpera = mOpera;

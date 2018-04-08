@@ -19,10 +19,10 @@ import java.util.List;
 
 public class MelodyAdapter extends ArrayAdapter<Melody> {
 
-    private Context mContext;
-    private List<Melody> melodiesList = new ArrayList<>();
+    public Context mContext;
+    public List<Melody> melodiesList = new ArrayList<>();
 
-    private MelodyAdapter(@NonNull Context context, ArrayList<Melody> list) {
+    public MelodyAdapter(@NonNull Context context, ArrayList<Melody> list) {
         super(context, 0, list);
         mContext = context;
         melodiesList = list;

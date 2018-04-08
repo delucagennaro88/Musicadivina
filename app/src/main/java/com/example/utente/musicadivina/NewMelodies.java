@@ -12,8 +12,8 @@ import java.util.ArrayList;
 
 public class NewMelodies extends AppCompatActivity {
 
-    private ListView listView;
-    private MelodyAdapter mAdapter;
+    public ListView listView;
+    public MelodyAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
