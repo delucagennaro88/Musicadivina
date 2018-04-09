@@ -1,0 +1,28 @@
+<resources>
+
+    <dimen name="header_first">45sp</dimen>
+    <dimen name="header_first_margin">5dp</dimen>
+    <dimen name="header_second">150dp</dimen>
+    <dimen name="welcome_first">14sp</dimen>
+    <dimen name="welcome_first_margin">55dp</dimen>
+    <dimen name="artist_contest">30dp</dimen>
+    <dimen name="artist_image">100dp</dimen>
+    <dimen name="artist_context_text">20dp</dimen>
+    <dimen name="artist_text">18dp</dimen>
+    <dimen name="button">35dp</dimen>
+    <dimen name="welcome_two">20sp</dimen>
+    <dimen name="welcome_two_margin">10dp</dimen>
+    <dimen name="title">16dp</dimen>
+    <dimen name="work_image">250dp</dimen>
+    <dimen name="title_list">14dp</dimen>
+    <dimen name="album_image_w">800dp</dimen>
+    <dimen name="album_image_h">380dp</dimen>
+    <dimen name="welcome_three">15dp</dimen>
+    <dimen name="welcome_three_t">13sp</dimen>
+    <dimen name="welcome_three_m">6dp</dimen>
+    <dimen name="media_player">45dp</dimen>
+    <dimen name="complete_work_style">17sp</dimen>
+    <dimen name="download_link">7dp</dimen>
+    <dimen name="list_image">200dp</dimen>
+
+</resources>
