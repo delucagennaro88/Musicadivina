@@ -18,6 +18,8 @@ public class VeraciniRadio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_veracini_radio);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         final TextView DownloadVeracini = findViewById(R.id.downloadVeracini);
 
         DownloadVeracini.setOnClickListener(new View.OnClickListener() {

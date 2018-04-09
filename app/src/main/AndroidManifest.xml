@@ -9,48 +9,131 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <!-- Parent page -->
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Wilderer page. The first child of Parent Page -->
         <activity
             android:name=".WildererRadio"
-            android:label="Wilderer Radio" />
+            android:label="Wilderer Radio"
+            android:parentActivityName=".MainActivity">
 
-        <activity
-            android:name=".VeraciniRadio"
-            android:label="Veracini Radio" />
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
 
-        <activity
-            android:name=".SteffaniRadio"
-            android:label="Steffani Radio" />
+        </activity>
 
-        <activity
-            android:name=".MoratelliRadio"
-            android:label="Moratelli Radio" />
-
-        <activity
-            android:name=".DownloadVeracini"
-            android:label="Download Veracini" />
-
-        <activity
-            android:name=".DownloadMoratelli"
-            android:label="Download Moratelli" />
-
-        <activity
-            android:name=".DownloadSteffani"
-            android:label="Download Steffani" />
-
+        <!-- Wilderer Download page -->
         <activity
             android:name=".DownloadWilderer"
-            android:label="Download Wilderer" />
+            android:label="Download Wilderer"
+            android:parentActivityName=".WildererRadio">
 
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
+
+        <!-- Veracini page. The second child of Parent page -->
+        <activity
+            android:name=".VeraciniRadio"
+            android:label="Veracini Radio"
+            android:parentActivityName=".MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
+
+        <!-- Veracini Download page -->
+        <activity
+            android:name=".DownloadVeracini"
+            android:label="Download Veracini"
+            android:parentActivityName=".VeraciniRadio">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
+
+        <!-- Moratelli page. The third child of Parent page -->
+        <activity
+            android:name=".MoratelliRadio"
+            android:label="Moratelli Radio"
+            android:parentActivityName=".MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
+
+        <!-- Moratelli Download page -->
+        <activity
+            android:name=".DownloadMoratelli"
+            android:label="Download Moratelli"
+            android:parentActivityName=".MoratelliRadio">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
+
+        <!-- Steffani page. The fourth child of Parent page -->
+        <activity
+            android:name=".SteffaniRadio"
+            android:label="Steffani Radio"
+            android:parentActivityName=".MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
+
+        <!-- Steffani Download page -->
+        <activity
+            android:name=".DownloadSteffani"
+            android:label="Download Steffani"
+            android:parentActivityName=".SteffaniRadio">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
+
+        <!-- New Melodies page. The fifth child of Parent page -->
         <activity
             android:name=".NewMelodies"
-            android:label="New Melodies" />
+            android:label="New Melodies"
+            android:parentActivityName=".MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
+        </activity>
 
     </application>
 

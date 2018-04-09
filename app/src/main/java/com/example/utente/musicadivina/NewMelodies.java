@@ -17,9 +17,11 @@ public class NewMelodies extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
 
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.list_melodies);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         listView = findViewById(R.id.melodies_list);
 

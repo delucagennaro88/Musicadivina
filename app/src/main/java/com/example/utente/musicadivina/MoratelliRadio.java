@@ -18,6 +18,8 @@ public class MoratelliRadio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_moratelli_radio);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         final TextView DownloadMoratelli = findViewById(R.id.downloadMoratelli);
 
         DownloadMoratelli.setOnClickListener(new View.OnClickListener() {

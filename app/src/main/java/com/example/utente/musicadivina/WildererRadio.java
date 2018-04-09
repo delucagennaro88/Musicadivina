@@ -18,6 +18,10 @@ public class WildererRadio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wilderer_radio);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         final TextView DownloadWilderer = findViewById(R.id.downloadWilderer);
 
         DownloadWilderer.setOnClickListener(new View.OnClickListener() {

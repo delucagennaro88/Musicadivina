@@ -18,6 +18,8 @@ public class SteffaniRadio extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_steffani_radio);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         final TextView DownloadSteffani = findViewById(R.id.downloadSteffani);
 
         DownloadSteffani.setOnClickListener(new View.OnClickListener() {
