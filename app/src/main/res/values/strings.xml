@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">Musica Divina</string>
+    <string name="w_manifesto">Wilderer Radio</string>
+    <string name="wd_manifesto">Download Wilderer</string>
+    <string name="v_manifesto">Veracini Radio</string>
+    <string name="vd_manifesto">Download Veracini</string>
+    <string name="m_manifesto">Moratelli Radio</string>
+    <string name="md_manifesto">Download Moratelli</string>
+    <string name="s_manifesto">Steffani Radio</string>
+    <string name="sd_manifesto">Download Steffani</string>
+    <string name="nm_manifesto">New Melodies</string>
     <string name="title_first">musica</string>
     <string name="title_second">divina</string>
     <string name="welcome">Welcome to the first Paradise of Baroque Melody</string>

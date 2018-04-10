@@ -21,7 +21,7 @@
         <!-- Wilderer page. The first child of Parent Page -->
         <activity
             android:name=".WildererRadio"
-            android:label="Wilderer Radio"
+            android:label="@string/w_manifesto"
             android:parentActivityName=".MainActivity">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -34,7 +34,7 @@
         <!-- Wilderer Download page -->
         <activity
             android:name=".DownloadWilderer"
-            android:label="Download Wilderer"
+            android:label="@string/wd_manifesto"
             android:parentActivityName=".WildererRadio">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -47,7 +47,7 @@
         <!-- Veracini page. The second child of Parent page -->
         <activity
             android:name=".VeraciniRadio"
-            android:label="Veracini Radio"
+            android:label="@string/v_manifesto"
             android:parentActivityName=".MainActivity">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -60,7 +60,7 @@
         <!-- Veracini Download page -->
         <activity
             android:name=".DownloadVeracini"
-            android:label="Download Veracini"
+            android:label="@string/vd_manifesto"
             android:parentActivityName=".VeraciniRadio">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -73,7 +73,7 @@
         <!-- Moratelli page. The third child of Parent page -->
         <activity
             android:name=".MoratelliRadio"
-            android:label="Moratelli Radio"
+            android:label="@string/m_manifesto"
             android:parentActivityName=".MainActivity">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -86,7 +86,7 @@
         <!-- Moratelli Download page -->
         <activity
             android:name=".DownloadMoratelli"
-            android:label="Download Moratelli"
+            android:label="@string/md_manifesto"
             android:parentActivityName=".MoratelliRadio">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -99,7 +99,7 @@
         <!-- Steffani page. The fourth child of Parent page -->
         <activity
             android:name=".SteffaniRadio"
-            android:label="Steffani Radio"
+            android:label="@string/s_manifesto"
             android:parentActivityName=".MainActivity">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -112,7 +112,7 @@
         <!-- Steffani Download page -->
         <activity
             android:name=".DownloadSteffani"
-            android:label="Download Steffani"
+            android:label="@string/sd_manifesto"
             android:parentActivityName=".SteffaniRadio">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
@@ -125,7 +125,7 @@
         <!-- New Melodies page. The fifth child of Parent page -->
         <activity
             android:name=".NewMelodies"
-            android:label="New Melodies"
+            android:label="@string/nm_manifesto"
             android:parentActivityName=".MainActivity">
 
             <!-- Parent activity meta-data to support 4.0 and lower -->
